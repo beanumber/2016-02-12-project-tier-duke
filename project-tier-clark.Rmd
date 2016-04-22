@@ -297,8 +297,7 @@ Well, it's R + Markdown:
 
 
 <div class="columns-2">
-- a single environment to combine your documentation and your
-analysis
+- an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) for statistical computing
 - Runs on top of R
 - R Markdown integration
 - GitHub integration
@@ -382,7 +381,7 @@ ggplot(data = oww, aes(x = mw1, y = hw1, color = exrt_cat)) +
 
 LaTeX:
 
-$\hat{y} = \beta_0 + \beta_1 \times x$
+$\hat{y} = \beta_0 + \beta_1 \cdot x$
 
 
 ## Resources
