@@ -244,13 +244,15 @@ Well, it's R + Markdown:
 
 ## Another R Markdown document
 
-<br><br><br><br>
+- Intro Stats projects: 
+    - [teacher salary and SAT scores](examples/group-d.html)
+    - [electrical consumption](examples/group-f.html)
+    - [contextualizing Ebola frenzy](examples/group-m.html)
+- Intro Data Science projects:
+    - [presidential campaign spending](examples/politics-project.html)
+    - [campsites at MacLeish](examples/spatial-project.html)
 
-<center>
-This presentation!
-</center>
-
-<br><br><br><br>
+- This presentation!
 
 <font size="3">Source: https://github.com/beanumber/project-tier-clark/blob/master/project-tier-clark.Rmd</font>
 
