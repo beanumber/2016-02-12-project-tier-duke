@@ -1,7 +1,7 @@
 ---
 title: "Version Control + R Markdown"
 author: "Ben Baumer (forked from Mine Çetinkaya-Rundel)"
-date: "April 22, 2016 <br> http://bit.ly/tier_clark"
+date: "April 22, 2016 <br> (http://www.science.smith.edu/~bbaumer/project_tier/project-tier-clark.html)"
 output:
   ioslides_presentation:
     highlight: pygments
@@ -387,13 +387,13 @@ $\hat{y} = \beta_0 + \beta_1 \cdot x$
 ## Resources
 
 - This talk: 
-    + Repo: https://github.com/beanumber/project-tier-clark
-    + Slides in your browser: http://bit.ly/tier_duke
+    + Repo: (https://github.com/beanumber/project-tier-clark)
+    + Slides in your browser: (http://www.science.smith.edu/~bbaumer/project_tier/project-tier-clark.html)
 
 - Project TIER on GitHub: https://github.com/ProjectTIER
 
 - Learn more:
-    + R Markdown: http://rmarkdown.rstudio.com/
-    + RStudio and git: https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
-    + Try Git: https://try.github.io
-    + Reproducible Science Curriculum (2 day workshop): https://github.com/Reproducible-Science-Curriculum/
+    + R Markdown: (http://rmarkdown.rstudio.com/)
+    + RStudio and git: (https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+    + Try Git: (https://try.github.io)
+    + Reproducible Science Curriculum (2 day workshop): (https://github.com/Reproducible-Science-Curriculum/)
