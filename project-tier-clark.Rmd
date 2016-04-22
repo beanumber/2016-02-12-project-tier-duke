@@ -1,6 +1,6 @@
 ---
 title: "Version Control + R Markdown"
-author: "Ben Baumer (borrowed from Mine Çetinkaya-Rundel)"
+author: "Ben Baumer (forked from Mine Çetinkaya-Rundel)"
 date: "April 22, 2016 <br> http://bit.ly/tier_clark"
 output:
   ioslides_presentation:
@@ -72,7 +72,8 @@ but you don’t reply to emails.
 
 ## What is version control?
 
-Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+- a system that records changes to files over time 
+- recall specific versions later
 
 ## Bad
 
@@ -103,7 +104,10 @@ Version control is a system that records changes to a file or set of files over 
 
 ## Better - Saving everything together at once
 
-Everytime you make a save, you zip the entire directory that your project files are in and save it with a date.
+Everytime you save:
+
+    - zip the entire directory 
+    - save it with a date
 
 
 ## Best - Version Control
