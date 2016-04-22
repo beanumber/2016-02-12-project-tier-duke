@@ -118,7 +118,7 @@ Everytime you save:
 
 <br>
 
-<font size="3">Source: https://github.com/mine-cetinkaya-rundel/2016-02-12-project-tier-duke.</font>
+<font size="3">Source: https://github.com/beanumber/project-tier-clark.</font>
 
 ## How does a version control system work? {.smaller}
 
@@ -147,6 +147,7 @@ Everytime you save:
 - A common location to share your work
 
 > Note: GitHub repositories are **public**. 
+
 > Can request private repositories for education or research 
 
 ## Commits
@@ -160,6 +161,19 @@ Everytime you save:
 <center>
 <img src="img/diff.png" width="900px" />
 </center>
+
+## git/GitHub, why?
+
+**Most powerful argument:** Automatic tracking of changes
+
+**Other arguments:**
+
+- No download/upload
+- Ease of collaboration with ability to resolve merge conflicts
+- Searchability
+- [OSF integration](https://osf.io/)
+- ...
+
 
 # Project TIER on GitHub
 
@@ -188,48 +202,29 @@ https://github.com/ProjectTIER
 to do, let us concentrate rather on explaining to *human beings* what we 
 want a computer to do."
 
-"The practitioner of literate programming [...] strives for a program that 
-is comprehensible because its concepts have been introduced in an order 
-that is best for human understanding, using a mixture of formal and 
-informal methods that reinforce each other."
 
 - These ideas have been around for years!
 - and tools for putting them to practice have also been around
 - but they have never been as accessible as the current tools
 
 
-## A better solution than just R
-
-With RStudio you can combine your programming and your documentation
-
-<div class="columns-2">
-- Gives you a single environment to combine your documentation and your
-analysis
-- Runs on top of R
-
-
-![RSplashScreen](img/RStudioSplash.png)
-</div>
-
 
 ## What is Markdown?
 
-- Markdown is a lightweight markup language for creating HTML (or XHTML) 
-documents.
+- a lightweight markup language for creating documents
 
-- Markup languages are designed to produce documents from human readable 
-text (and annotations).
+- Markup languages are designed to produce documents from human readable text (and annotations)
 
-- Some of you may be familiar with LaTeX. This is another (less human 
-friendly) markup language for creating pdf documents.
+- Compare with $\LaTeX$: 
+    - a (less human friendly) markup language for creating PDF documents
 
 - Why I love Markdown:
-    + Simple syntax means easy to learn and use.
+    + Simple syntax means easy to learn and use
     + Focus on **content**, rather than **coding** and debugging 
-    **errors**.
-    + Allows for easy web authoring.
+    **errors**
+    + Allows for easy web authoring
     + Once you have the basics down, you can get fancy and add HTML,
-    JavaScript, and CSS.
+    JavaScript, and CSS
 
 ## Sample Markdown document
 
@@ -257,11 +252,13 @@ This presentation!
 
 <br><br><br><br>
 
+<font size="3">Source: https://github.com/beanumber/project-tier-clark/blob/master/project-tier-clark.Rmd</font>
+
 # 3. Scriptability
 
 ## Point-and-click vs. scripting
 
-- Learning curve: Point-and-click software (supposedly) have shallower learning curves than scripting languages
+- Learning curve: Point-and-click apps (supposedly) have shallower learning curves than scripting languages
 
 - Documentation: At a minimum, your code documents your analysis
     + And you can do better with comments and README files
@@ -276,8 +273,9 @@ This presentation!
 - Programming language for data analysis
 - Free!
 - Open source
-- Widely used and supported across all disciplines
-- Can be used on Windows, Mac OS X, or Linux
+- Large user base
+- Supported across disciplines
+- Cross-platform: Windows, Mac OS X, or Linux
 - Thousands of statistical data analysis packages
 
 ![RSplashScreen](img/RSplash.png)
@@ -286,28 +284,32 @@ This presentation!
 
 ## Why not language X?
 
-- There are a number of other great programming tools out there that can also be 
-used to improve the reproducibility of your analysis
+- Why not?
 
-- The key is to use some type of language that will allow you to automate and 
-document your analysis
+- R Markdown (`knitr`) supports [many rendering engines](http://yihui.name/knitr/demo/engines/):
+    - Python
+    - SQL
+    - Stata (beta?)
 
-- Once you master one language you'll probably find it easier to learn another
+## RStudio
 
-
-## Once in R
 
 <div class="columns-2">
-You could just type into the command prompt, but that doesn't help much with
+- a single environment to combine your documentation and your
+analysis
+- Runs on top of R
+- R Markdown integration
+- GitHub integration
+- I do pretty much everything in RStudio:
+    - class notes
+    - books and articles
+    - websites
+    - meeting agendae/minutes
 
-- documentation
 
-or
-
-- automation
-
-![RSplash](img/RSplash.png)
+![RSplashScreen](img/RStudioSplash.png)
 </div>
+
 
 ## Example: Occupational Wages around the World
 
@@ -380,80 +382,11 @@ LaTeX:
 
 $\hat{y} = \beta_0 + \beta_1 \times x$
 
-## Set up git in RStudio
-
-We're going to avoid local installation for now...
-
-Go to https://vm-manage.oit.duke.edu/containers
-
-- Log in with your Duke NetID
-- Click on RStudio which will launch an R session for you
-
-In RStudio:
-
-- Go to Tools -> Shell
-- Type the two lines of code, replacing my information with your own
-    
-~~~
-$ git config --global user.name "Mine Cetinkaya-Rundel"
-$ git config --global user.email "mine@stat.duke.edu"
-~~~
-
-## Clone
-
-In RStudio:
-
-- Go to File -> New Project -> Version Control -> Git
-- Go back to your forked GitHub repo and copy the HTTPS URL
-- Insert this into Repository URL
-- Click on Create Project
-
-## Edit, stage, commit, push
-
-- Edit one of the Markdown files
-
-- Go to the Git page in RStudio
-    + Stage changes by checking the box
-    + Commit (with an informative message)
-    + Push
-
-- View your changes on GitHub
-
-## git/GitHub, why?
-
-**Most powerful argument:** Automatic tracking of changes
-
-**Other arguments:**
-
-- No download/upload
-- Ease of collaboration with ability to resolve merge conflicts
-- Searchability
-- ...
-
-# Parting remarks
-
-## Two-pronged approach
-
-Everyone struggles with reproducibility and it is a hindrance to moving 
-science forward.
-
-<div class="columns-2">
-\#1 
-Adopt a reproducible research workflow
-
-<br><br>
-
-\#2
-Train new researchers who don’t have any other workflow
-
-![two prongs](img/two-pronged-fork.jpg)
-
-</div>
 
 ## Resources
 
 - This talk: 
-    + Repo: https://github.com/mine-cetinkaya-rundel/2016-02-12-project-tier-duke
+    + Repo: https://github.com/beanumber/project-tier-clark
     + Slides in your browser: http://bit.ly/tier_duke
 
 - Project TIER on GitHub: https://github.com/ProjectTIER
